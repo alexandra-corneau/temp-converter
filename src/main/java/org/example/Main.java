@@ -16,8 +16,7 @@ public class Main {
 
     public static float userInput(){
         Scanner scanner = new Scanner(System.in);
-        float input = scanner.nextFloat();
-        return input;
+        return scanner.nextFloat();
     }
 
     public static void conversion(int option, float temp) {
