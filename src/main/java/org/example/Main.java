@@ -25,19 +25,19 @@ public class Main {
         switch(option){
             case 1: //Fahrenheit To Celsius
                 tempConversion =(float) ((temp - 32) * (5.0 / 9.0));
-                System.out.println(temp + "F = " + tempConversion + "C");
+                System.out.println(temp + "\u00B0F = " + tempConversion + "\u00B0C");
                 break;
             case 2: //Fahrenheit To Kelvin
                 tempConversion = (float) ((temp-32)*(5.0/9.0) + 273.15);
-                System.out.println(temp + "F = " + tempConversion + "K");
+                System.out.println(temp + "\u00B0F = " + tempConversion + "\u00B0K");
                 break;
             case 3: //Celsius To Fahrenheit
                 tempConversion = (float) (temp*(9.0/5.0) +32);
-                System.out.println(temp + "C = " + tempConversion + "F");
+                System.out.println(temp + "\u00B0C = " + tempConversion + "\u00B0F");
                 break;
             case 4: //Celsius to Kelvin
                 tempConversion = (float) (temp + 273.15);
-                System.out.println(temp + "C = " + tempConversion + "K");
+                System.out.println(temp + "\u00B0C = " + tempConversion + "\u00B0K");
                 break;
             case 5: //Kelvin to Fahrenheit
                 tempConversion = (float) ((temp-273.15)*(9.0/5.0) + 32);
@@ -45,7 +45,7 @@ public class Main {
                 break;
             case 6: //Kelvin to Celsius
                 tempConversion = (float) (temp - 273.15);
-                System.out.println(temp + "\u00B0"+ "K = " + tempConversion + "\u00B0C");
+                System.out.println(temp + "\u00B0K = " + tempConversion + "\u00B0C");
                 break;
             default:
                 System.out.println("Enter a Valid Number");
@@ -73,4 +73,3 @@ public class Main {
 
     }
 }
-//////need to figure out import degree symbol
